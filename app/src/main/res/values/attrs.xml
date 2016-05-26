@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mText" format="string" />
+    <attr name="mTextColor" format="color" />
+    <attr name="mTextSize" format="dimension" />
+    <declare-styleable name="MyTextView">
+        <attr name="mText"/>
+        <attr name="mTextColor"/>
+        <attr name="mTextSize"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomLayout">
+        <attr name="android:layout_gravity"/>
+    <attr name="layout_position">
+        <enum name="center" value="0" />
+        <enum name="left" value="1" />
+        <enum name="right" value="2" />
+        <enum name="bottom" value="3" />
+        <enum name="rightAndBottom" value="4" />
+    </attr>
+</declare-styleable>
+</resources>

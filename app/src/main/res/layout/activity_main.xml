@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.openxu.customlayout.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:openxu="http://schemas.android.com/apk/res-auto"
+    android:background="#33000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	openxu:layout_position="left"
+      	android:layout_marginLeft = "20dip"
+        android:background="#FF8247"
+        android:textColor="#ffffff"
+        android:textSize="30dip"
+        android:padding="20dip"
+        android:text="按钮1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "30dip"
+        openxu:layout_position="right"
+        android:background="#8B0A50"
+        android:textColor="#ffffff"
+        android:textSize="25dip"
+        android:padding="10dip"
+        android:text="按钮2222222222222" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft = "30dip"
+        android:layout_marginBottom = "10dip"
+        openxu:layout_position="bottom"
+        android:background="#7CFC00"
+        android:textColor="#ffffff"
+        android:textSize="30dip"
+        android:padding="15dip"
+        android:text="按钮333333" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        openxu:layout_position="rightAndBottom"
+        android:layout_marginBottom = "30dip"
+        android:background="#1E90FF"
+        android:textColor="#ffffff"
+        android:textSize="25dip"
+        android:padding="10dip"
+        android:text="按钮4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        openxu:layout_position="center"
+        android:layout_marginBottom = "30dip"
+        android:layout_marginRight = "30dip"
+        android:background="#191970"
+        android:textColor="#ffffff"
+        android:textSize="30dip"
+        android:padding="15dip"
+        android:text="按钮5" />
+
+</com.openxu.customlayout.CustomLayout>
